@@ -24,14 +24,14 @@ This project utilizes the following technologies:
 
 Long Short-Term Memory (LSTM) networks are used to predict sequences of piano notes. This model captures the temporal dependencies in music sequences and generates coherent musical outputs.
 
-![LSTM Architecture](Images/LSTM_Architecture.png)
+![LSTM Architecture](Music-Gen-AI-main/Images/LSTM_Architecture.png)
 
 ### Wavenet-inspired Model
 
 Inspired by Wavenet, this model uses 1D convolutions with dilated convolutions to generate music sequences. While more complex, it provides insights into how different neural network architectures perform in music generation.
 
-![Dilated Convolution](Images/Dilated_Convolution.png)
-![Wavenet Architecture](Images/Wavenet_Architecture.png)
+![Dilated Convolution](Music-Gen-AI-main/Images/Dilated_Convolution.png)
+![Wavenet Architecture](Music-Gen-AI-main/Images/Wavenet_Architecture.png)
 
 ## Training Details
 
@@ -44,7 +44,7 @@ Inspired by Wavenet, this model uses 1D convolutions with dilated convolutions t
 
 ### Loss History
 
-![Loss History](Trained_Model/loss_history.png)
+![Loss History](Music-Gen-AI-main/Trained_Model/loss_history.png)
 
 ### Accuracy Metrics
 
